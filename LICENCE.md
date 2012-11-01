@@ -37,7 +37,9 @@ Mobile Greetings App Starter Kit.
  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  OTHER DEALINGS IN THE SOFTWARE.
 
-============================================================================================
+
+Appirater
+---------
 
 Appirater is a class that you can drop into any iPhone app that will help remind your users to review your app on the App Store
 
@@ -72,61 +74,66 @@ While not required, I greatly encourage and appreciate any improvements that you
  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  OTHER DEALINGS IN THE SOFTWARE.
 
-/*
- * Appirater.h
- * appirater
- *
- * Created by Arash Payan on 9/5/09.
- * http://arashpayan.com
- * Copyright 2010 Arash Payan. All rights reserved.
- */
-============================================================================================
+Appirater.h
+appirater
+
+Created by Arash Payan on 9/5/09.
+http://arashpayan.com
+Copyright 2010 Arash Payan. All rights reserved.
+
+
 
 Facebook Feed Demo Code
+-----------------------
 
 Interfaces to Facebook's iOS SDK -- code for posting to Facebook
 
-//  Created by Andy Yanok on 3/1/11.
+Created by Andy Yanok on 3/1/11.
 
 http://www.icodeblog.com/2011/03/28/facebook-sdk-posting-to-user-news-feed/
 https://github.com/ayanok/Andy-Yanok---Public-Sample-Code
 
 In Helper Classes/FBRequestWrapper.h
-these 4 lines should be removed before posting for sale.  The commented out 4 lines above that already show sample ids.
-====================
+Type in your own facebook ids
+
+
 
 IFNNotificationDisplay
+----------------------
 
 Part of about Facebook Demo code (included at about github url)
 
 For HUD Messages while waiting for something to be accomplished. Small symbol turning with message.
 
-//
-//  Created by Andy Yanok on 2/19/11.
-//  Copyright 2011 Andrew Yanok. All rights reserved.
+Created by Andy Yanok on 2/19/11.
+Copyright 2011 Andrew Yanok. All rights reserved.
 
-============================================================================================
+
+
+Facebook iOS SDK
+----------------
 
 https://github.com/facebook/facebook-ios-sdk
 
 This external library is open source and provided by Facebook
 
-/*
- * Copyright 2010 Facebook
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-===============================================================================
+Copyright 2010 Facebook
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+
+JSON Framework
+--------------
 
 JSON.h
 
@@ -134,7 +141,6 @@ https://github.com/stig/json-framework/
 
 https://github.com/ayanok/Andy-Yanok---Public-Sample-Code/blob/master/Facebook%20Demo/External%20Frameworks/JSON/JSON.h
 
-/*
  Copyright (C) 2009 Stig Brautaset. All rights reserved.
  
  Redistribution and use in source and binary forms, with or without
@@ -161,9 +167,7 @@ https://github.com/ayanok/Andy-Yanok---Public-Sample-Code/blob/master/Facebook%2
  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
  OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- */
 
-/**
  @mainpage A strict JSON parser and generator for Objective-C
 
  JSON (JavaScript Object Notation) is a lightweight data-interchange
@@ -178,53 +182,53 @@ https://github.com/ayanok/Andy-Yanok---Public-Sample-Code/blob/master/Facebook%2
  in arrays or objects. Nor does it support embedded comments, or
  anything else not in the JSON specification. This is considered a feature. 
  
-*/
-===========================================================================================
+
 
 iCarousel
+---------
 
-//
-//  iCarousel.h
-//
-//  Version 1.5.6
-//
-//  Created by Nick Lockwood on 01/04/2011.
-//  Copyright 2010 Charcoal Design. All rights reserved.
-//
-//  Get the latest version of iCarousel from either of these locations:
-//
-//  http://charcoaldesign.co.uk/source/cocoa#icarousel
-//  https://github.com/nicklockwood/icarousel
-//
-//  This software is provided 'as-is', without any express or implied
-//  warranty.  In no event will the authors be held liable for any damages
-//  arising from the use of this software.
-//
-//  Permission is granted to anyone to use this software for any purpose,
-//  including commercial applications, and to alter it and redistribute it
-//  freely, subject to the following restrictions:
-//
-//  1. The origin of this software must not be misrepresented; you must not
-//  claim that you wrote the original software. If you use this software
-//  in a product, an acknowledgment in the product documentation would be
-//  appreciated but is not required.
-//
-//  2. Altered source versions must be plainly marked as such, and must not be
-//  misrepresented as being the original software.
-//
-//  3. This notice may not be removed or altered from any source distribution.
-//
-==============================================
+iCarousel.h
+
+Version 1.5.6
+
+Created by Nick Lockwood on 01/04/2011.
+Copyright 2010 Charcoal Design. All rights reserved.
+
+Get the latest version of iCarousel from either of these locations:
+
+http://charcoaldesign.co.uk/source/cocoa#icarousel
+https://github.com/nicklockwood/icarousel
+
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+    claim that you wrote the original software. If you use this software
+    in a product, an acknowledgment in the product documentation would be
+    appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source distribution.
+
+
 
 WEPopover
+---------
 
 For iPhone popovers like on the iPad
 
-//  WEPopoverController.h
-//  WEPopover
-//
-//  Created by Werner Altewischer on 02/09/10.
-//  Copyright 2010 Werner IT Consultancy. All rights reserved.
+WEPopoverController.h
+WEPopover
+
+Created by Werner Altewischer on 02/09/10.
+Copyright 2010 Werner IT Consultancy. All rights reserved.
 
 https://github.com/werner77/WEPopover
 
@@ -247,9 +251,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-==============================================
+
+
 
 SDWebImage
+----------
 
 https://github.com/rs/SDWebImage
 
@@ -272,4 +278,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-==============================================
