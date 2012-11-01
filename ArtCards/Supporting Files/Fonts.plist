@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>fontName</key>
+		<string>AcademyEngravedLetPlain</string>
+		<key>fontNameInPopover</key>
+		<string>Academy Engraved</string>
+		<key>fontSizeInPopover</key>
+		<integer>19</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>AmericanTypewriter</string>
+		<key>fontNameInPopover</key>
+		<string>American Typewriter</string>
+		<key>fontSizeInPopover</key>
+		<integer>15</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>Baskerville</string>
+		<key>fontNameInPopover</key>
+		<string>Baskerville</string>
+		<key>fontSizeInPopover</key>
+		<integer>21</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>BodoniSvtyTwoSCITCTTBook</string>
+		<key>fontNameInPopover</key>
+		<string>Bodoni 72</string>
+		<key>fontSizeInPopover</key>
+		<integer>20</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>BradleyHandITCTTBold</string>
+		<key>fontNameInPopover</key>
+		<string>Bradley Hand</string>
+		<key>fontSizeInPopover</key>
+		<integer>19</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>Chalkduster</string>
+		<key>fontNameInPopover</key>
+		<string>Chalkduster</string>
+		<key>fontSizeInPopover</key>
+		<integer>17</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>Cochin-Italic</string>
+		<key>fontNameInPopover</key>
+		<string>Cochin Italic</string>
+		<key>fontSizeInPopover</key>
+		<integer>23</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>Copperplate-Light</string>
+		<key>fontNameInPopover</key>
+		<string>Copperplate</string>
+		<key>fontSizeInPopover</key>
+		<integer>19</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>Courier</string>
+		<key>fontNameInPopover</key>
+		<string>Courier</string>
+		<key>fontSizeInPopover</key>
+		<integer>19</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>GillSans</string>
+		<key>fontNameInPopover</key>
+		<string>Gill Sans</string>
+		<key>fontSizeInPopover</key>
+		<integer>20</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>MarkerFelt-Thin</string>
+		<key>fontNameInPopover</key>
+		<string>Marker Felt</string>
+		<key>fontSizeInPopover</key>
+		<integer>20</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>Noteworthy-Light</string>
+		<key>fontNameInPopover</key>
+		<string>Noteworthy</string>
+		<key>fontSizeInPopover</key>
+		<integer>18</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>Palatino-Roman</string>
+		<key>fontNameInPopover</key>
+		<string>Palatino</string>
+		<key>fontSizeInPopover</key>
+		<integer>19</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>Papyrus</string>
+		<key>fontNameInPopover</key>
+		<string>Papyrus</string>
+		<key>fontSizeInPopover</key>
+		<integer>23</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>PartyLetPlain</string>
+		<key>fontNameInPopover</key>
+		<string>Party</string>
+		<key>fontSizeInPopover</key>
+		<integer>35</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>SnellRoundhand</string>
+		<key>fontNameInPopover</key>
+		<string>Snell Roundhand</string>
+		<key>fontSizeInPopover</key>
+		<integer>24</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>TimesNewRomanPSMT</string>
+		<key>fontNameInPopover</key>
+		<string>Times New Roman</string>
+		<key>fontSizeInPopover</key>
+		<integer>20</integer>
+	</dict>
+	<dict>
+		<key>fontName</key>
+		<string>Zapfino</string>
+		<key>fontNameInPopover</key>
+		<string>Zapfino</string>
+		<key>fontSizeInPopover</key>
+		<integer>13</integer>
+	</dict>
+</array>
+</plist>

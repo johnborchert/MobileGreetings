@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ArtCardsTests' target in the 'ArtCardsTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
