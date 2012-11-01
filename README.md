@@ -61,7 +61,7 @@ That's it. Good Luck. I'm sure you will make a beautiful app!
 The VectorBloom team
 
 
-Notes on the Mobile Greetings Starter Kit Main Classes in the ArtCards/src/ Directory
+Notes on Main Classes in the ArtCards/src/ Directory
 -------------------------------------------------------------------------------------
 
 
@@ -73,11 +73,10 @@ AppManager.m
 This "Singleton" class is imported by all classes in your project since it is listed in the following file, along with the 2 standard import files:
 
 ArtCards/Supporting Files/ArtCards-Prefix.pch
-  ...
-  #import "AppManager.h"  is listed along with the 2 standard imports
+
+import "AppManager.h"  is listed along with the 2 standard imports
 
 This class, AppManager.m, is a good place for methods that you want accessible from any class in your application and is a better location for these 'global' methods than placing them in the application's delegate ie. ArtCardsAppDelegate.m.
-==============
 
 ArtCardsAppDelegate.h
 ArtCardsAppDelegate.m
@@ -95,7 +94,7 @@ and 1 line in the method "applicationWillEnterForeground"
   [Appirater appEnteredForeground:YES];
 
 If you do not want to use Appirater, for auto prompting of 'rate it' to your customers, then you can comment out the above 2 lines (along with commenting out #import "Appirater.h")
-================
+
 
 MainArtViewController.h
 MainArtViewController.m
@@ -109,7 +108,7 @@ You can adjust the image size in method "carousel: viewForItemAtIndex:" if neces
 MainArtViewController.xib
 
 You need to change the header button and footer button.
-================
+
 
 FBFriendsViewController.h
 FBFriendsViewController.m
@@ -126,7 +125,7 @@ The Facebook images are cached using the excellent SDWebImage classes. This coll
 FBFriendsViewController.xib
 
 - no adjustments need in this xib for your customer application
-================
+
 
 CustomizeArtCardView.h
 CustomizeArtCardView.m
@@ -143,14 +142,14 @@ All the imported classes in CustomizeArtCardView.h & .m will be described in the
 CustomizeArtCard.xib
 
 You may wish to adjust the appearance of the toolbar buttons in this xib
-================
+
 
 MainWindow.xib
 
 - no changes needed
 
 MainWindow.xib is generated automatically by Xcode. The main window interacts with your application delegate to handle events that your application receives through the views.
-================
+
 
 WebViewController.h
 WebViewController.m
@@ -164,7 +163,7 @@ This is the web view that displays if the footer image is pressed on the 1st car
 WebViewController.xib
 
 To adjust instructions for your custom app in interface builder, click on WebViewController.xib … View … Text View … 4 icons from left .. Text
-===================
+
 
 BioViewController.h
 BioViewController.m
@@ -176,7 +175,7 @@ This view is shown when pressing the initial views button at the top of the view
 BioViewController.xib
 
 - to adjust text for your bio, in BioViewController.xib, click on View … Text View .. 4 icons from left .. Text .. adjust text
-===================
+
 
 ActionContentViewController.h
 ActionContentViewController.m
@@ -190,7 +189,7 @@ ActionContentViewController.xib
 - no changes needed for your custom application.
 
 - see method "actionButtonPressed:" in CustomizeArtCardView.m for positioning information of the actions popover.
-===================
+
 
 FontContentTableViewController.h
 FontContentTableViewController.m
@@ -208,8 +207,8 @@ FontContentTableViewController.xib
 - see the method "fontButtonPressed:" in CustomizeArtCardView.m for positioning information of the fonts popover.
 
 
-Notes on the Helper Classes in the ArtCards/Helper Classes Directory
---------------------------------------------------------------------
+Notes on the Helper Classes in the ArtCards/Helper Classes
+----------------------------------------------------------
 
 Appirater.h
 Appirater.m
@@ -227,7 +226,7 @@ The minimum changes are:
 
 Appirater was created by Arash Payan.
 https://github.com/arashpayan/appirater/
-===================
+
 
 FBFeedGet.h         by VectorBloom, modified from FBFeedPost.h
 FBFeedGet.m         by VectorBloom, modified from FBFeedPost.m
@@ -245,7 +244,7 @@ http://www.icodeblog.com/2011/03/28/facebook-sdk-posting-to-user-news-feed/
 
 Look for updates here:
 https://github.com/ayanok/Andy-Yanok---Public-Sample-Code
-=====================
+
 
 iCarousel.h
 iCarousel.m
@@ -259,7 +258,7 @@ Created by Nick Lockwood
 
 Look for updates here:
 https://github.com/nicklockwood/icarousel
-======================
+
 
 IFNNotificationDisplay.h
 IFNNotificationDisplay.m
@@ -318,13 +317,14 @@ ArtCards/Supporting Files/ArtCards-Prefix.pch
 
 ArtCards/Supporting Files/main.m
 - standard iOS script for starting the application
-========================================================================
 
-TESTS
+
+Tests
+-----
 
 ArtCards/ArtCardsTests directory
 - not currently used
-========================================================================
+
 
 
 External Frameworks
@@ -336,7 +336,7 @@ ArtCards/External Frameworks/WEPopover/
 
 Created by Werner Altewischer
 https://github.com/werner77/WEPopover
-============
+
 
 
 ArtCards/External Frameworks/SDWebImage/
@@ -345,7 +345,7 @@ ArtCards/External Frameworks/SDWebImage/
 
 Created by Olivier Poitrey
 https://github.com/rs/SDWebImage
-============
+
 
 
 ArtCards/External Frameworks/Facebook SDK/
@@ -357,7 +357,7 @@ https://github.com/ayanok/Andy-Yanok---Public-Sample-Code
 
 Facebook's original version, and regularly updated is here:
 https://github.com/facebook/facebook-ios-sdk
-============
+
 
 
 ArtCards/External Frameworks/JSON/
@@ -371,7 +371,7 @@ https://github.com/ayanok/Andy-Yanok---Public-Sample-Code
 
 The original JSON Framework code that is updated regularly by Stig Brautaset is here:
 https://github.com/stig/json-framework
-=======================================================================
+
 
 
 Frameworks
@@ -390,8 +390,6 @@ ArtCards/Frameworks/QuartzCore.framework
 ArtCards/Frameworks/UIKit.framework
 ArtCards/Frameworks/Foundation.framework
 ArtCards/Frameworks/CoreGraphics.framework
-========================================================================
 
 ArtCards/Products/ directory
 - used internally by iOS
-========================================================================
