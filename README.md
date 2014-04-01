@@ -393,3 +393,11 @@ ArtCards/Frameworks/CoreGraphics.framework
 
 ArtCards/Products/ directory
 - used internally by iOS
+
+
+Future Updates Planned
+----------------------
+
+- make all views iPhone 5 compatible
+- remove nil in ViewDidUnLoad methods and remove dealloc methods since ARC automatically does this for us now.
+
